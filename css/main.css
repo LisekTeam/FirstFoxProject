@@ -80,7 +80,7 @@ nav {
           color: #2c3d53;
           transition: 0.4s;
           -moz-transition: 0.4s;
-          -ms-transition: 0.4s;
+          -webkit-transition: 0.4s;
           font-weight: 300; }
       nav .navigation-logo a:hover span {
         color: #fff; }
@@ -111,7 +111,7 @@ nav {
           opacity: 0;
           transition: 0.4s;
           -moz-transition: 0.4s;
-          -ms-transition: 0.4s; }
+          -webkit-transition: 0.4s; }
         nav .main-nav-buttons li a .a-cover.a-1 {
           background: linear-gradient(to right, #56ccf2, #3d8bf4); }
         nav .main-nav-buttons li a .a-cover.a-2 {
@@ -140,13 +140,33 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: center; }
-    #sec1-main-view .main-cover p.main-title {
-      font-size: 7rem;
-      color: #fff;
-      font-family: "Open Sans", sans-serif;
-      font-weight: 300; }
-      #sec1-main-view .main-cover p.main-title span {
-        font-weight: 500; }
+    #sec1-main-view .main-cover .title-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      #sec1-main-view .main-cover .title-box img.main-logo {
+        display: block;
+        width: 20rem;
+        height: 20rem;
+        transition: 0.7s;
+        -moz-transition: 0.7s;
+        -webkit-transition: 0.7s;
+        cursor: pointer; }
+        #sec1-main-view .main-cover .title-box img.main-logo:hover {
+          width: 24rem;
+          height: 24rem; }
+      #sec1-main-view .main-cover .title-box h1.main-title {
+        font-size: 7rem;
+        color: #fff;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300;
+        transition: 0.7s;
+        -moz-transition: 0.7s;
+        -webkit-transition: 0.7s; }
+        #sec1-main-view .main-cover .title-box h1.main-title span {
+          font-weight: 500; }
+      #sec1-main-view .main-cover .title-box h1.main-title.smaller {
+        font-size: 6rem; }
 
 #sec2-test {
   width: 100%;

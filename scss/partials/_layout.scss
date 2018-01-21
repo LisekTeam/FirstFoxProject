@@ -33,7 +33,7 @@ nav{
           color: $foxyblue;
           transition: 0.4s;
           -moz-transition: 0.4s;
-          -ms-transition: 0.4s;
+          -webkit-transition: 0.4s;
           font-weight: 300;
         }
       }
@@ -71,7 +71,7 @@ nav{
           opacity: 0;
           transition: 0.4s;
           -moz-transition: 0.4s;
-          -ms-transition: 0.4s;
+          -webkit-transition: 0.4s;
         }
         .a-cover.a-1{
           background: linear-gradient(to right, #56ccf2 , #3d8bf4);
@@ -111,15 +111,41 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    p.main-title{
-      font-size: 7rem;
-      color: #fff;
-      font-family: $menu;
-      font-weight: 300;
-      span{
-        font-weight: 500;
+    .title-box{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      img.main-logo{
+        display: block;
+        width: 20rem;
+        height: 20rem;
+        transition: 0.7s;
+        -moz-transition: 0.7s;
+        -webkit-transition: 0.7s;
+        cursor: pointer;
+        &:hover{
+          width: 24rem;
+          height: 24rem;
+        }
+      }
+      h1.main-title{
+        font-size: 7rem;
+        color: #fff;
+        font-family: $menu;
+        font-weight: 300;
+        transition: 0.7s;
+        -moz-transition: 0.7s;
+        -webkit-transition: 0.7s;
+        span{
+          font-weight: 500;
+        }
+      }
+      h1.main-title.smaller{
+        font-size: 6rem;
       }
     }
+
+
   }
 }
 #sec2-test{
