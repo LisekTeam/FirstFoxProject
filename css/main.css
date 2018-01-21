@@ -54,7 +54,7 @@ body {
 
 nav {
   width: 100%;
-  background-color: black;
+  background-color: #2c3d53;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   display: flex;
@@ -77,7 +77,7 @@ nav {
         margin: 0 1.6rem;
         font-size: 2.5rem; }
         nav .navigation-logo a .nav-logo-title span {
-          color: #000;
+          color: #2c3d53;
           transition: 0.4s;
           -moz-transition: 0.4s;
           -ms-transition: 0.4s;
