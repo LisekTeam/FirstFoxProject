@@ -50,7 +50,34 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
-  background-color: green; }
+  padding: 0; }
+
+nav {
+  width: 100%;
+  background-color: black; }
+  nav .navigation-logo {
+    display: flex; }
+    nav .navigation-logo a {
+      text-decoration: none;
+      padding: 0 1rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      height: 6rem; }
+      nav .navigation-logo a .nav-logo-image {
+        width: 5rem; }
+      nav .navigation-logo a .nav-logo-title {
+        color: #fff;
+        margin: 0 1.6rem;
+        font-size: 3rem; }
+
+#sec1-main-view {
+  width: 100%;
+  background-image: url("../images/red-fox-bg.jpg");
+  background-size: cover; }
+
+#sec2-test {
+  width: 100%;
+  min-height: 10rem; }
 
 /*# sourceMappingURL=main.css.map */

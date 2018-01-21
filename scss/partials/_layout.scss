@@ -3,5 +3,37 @@ html{
 }
 body{
   @include zero;
-  background-color: green;
+}
+nav{
+  width: 100%;
+  background-color: black;
+  .navigation-logo{
+    display: flex;
+    a{
+      .nav-logo-image{
+        width: 5rem;
+      }
+      text-decoration: none;
+      padding: 0 1rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      height: 6rem;
+      .nav-logo-title{
+        color: #fff;
+        margin: 0 1.6rem;
+        font-size: 3rem;
+      }
+    }
+  }
+}
+#sec1-main-view{
+  width: 100%;
+  background-image: url('../images/red-fox-bg.jpg');
+  background-size: cover;
+
+}
+#sec2-test{
+  width: 100%;
+  min-height: 10rem;
 }
