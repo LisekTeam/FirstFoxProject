@@ -11,5 +11,5 @@ function setHeight() {
 }
 
 function startParallax() {
-  $('.parallax-window').parallax({imageSrc: 'images/red-fox-bg.jpg'});
+  $('.parallax-window').parallax({imageSrc: 'images/main-bg-city.jpg'});
 }
