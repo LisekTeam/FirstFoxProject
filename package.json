@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/LisekTeam/FirstFoxProject#readme",
   "dependencies": {
+    "jquery": "^3.3.1",
     "node-sass": "^4.7.2"
   }
 }

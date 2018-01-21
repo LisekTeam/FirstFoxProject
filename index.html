@@ -7,7 +7,7 @@
   <title>First FoxTeam Project</title>
   <link rel="stylesheet" href="css/main.css">
   <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/parallax.js"></script>
   <script src="js/main.js"></script>
 </head>
 <body>
@@ -19,7 +19,14 @@
       </a>
     </div>
   </nav>
-  <section id="sec1-main-view" class="parallax-window" data-parallax="scroll" data-image-src="images/red-fox-bg.jpg" data-speed="0.2"></section>
+  <section id="sec1-main-view">
+    <div class="main-cover parallax-window"
+         data-parallax="scroll"
+         data-image-src="images/red-fox-bg.jpg"
+         data-speed="0.5">
+
+    </div>
+  </section>
   <section id="sec2-test"></section>
 </body>
 </html>

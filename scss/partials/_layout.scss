@@ -29,9 +29,18 @@ nav{
 }
 #sec1-main-view{
   width: 100%;
-
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  .main-cover{
+    height: 110%;
+    width: 100%;
+    position: relative;
+    bottom: 5%;
+  }
 }
 #sec2-test{
   width: 100%;
-  min-height: 10rem;
+  min-height: 30rem;
+  background-color: red;
 }
